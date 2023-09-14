@@ -14,6 +14,11 @@
 		B7D85B5C2AB05E0F00EEC3DF /* SimpleNetworkingApp_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D85B5B2AB05E0F00EEC3DF /* SimpleNetworkingApp_SwiftUITests.swift */; };
 		B7D85B662AB05E0F00EEC3DF /* SimpleNetworkingApp_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D85B652AB05E0F00EEC3DF /* SimpleNetworkingApp_SwiftUIUITests.swift */; };
 		B7D85B682AB05E0F00EEC3DF /* SimpleNetworkingApp_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D85B672AB05E0F00EEC3DF /* SimpleNetworkingApp_SwiftUIUITestsLaunchTests.swift */; };
+		B7D85B752AB1981800EEC3DF /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D85B742AB1981800EEC3DF /* NetworkingService.swift */; };
+		B7D85B772AB1988E00EEC3DF /* NetworkConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D85B762AB1988E00EEC3DF /* NetworkConfiguration.swift */; };
+		B7D85B7C2AB206E000EEC3DF /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D85B7B2AB206E000EEC3DF /* Show.swift */; };
+		B7D85B7F2AB2071C00EEC3DF /* FetchDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D85B7E2AB2071C00EEC3DF /* FetchDataView.swift */; };
+		B7D85B822AB2075F00EEC3DF /* FetchDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D85B812AB2075F00EEC3DF /* FetchDataViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		B7D85B612AB05E0F00EEC3DF /* SimpleNetworkingApp_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleNetworkingApp_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D85B652AB05E0F00EEC3DF /* SimpleNetworkingApp_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNetworkingApp_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		B7D85B672AB05E0F00EEC3DF /* SimpleNetworkingApp_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNetworkingApp_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7D85B742AB1981800EEC3DF /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		B7D85B762AB1988E00EEC3DF /* NetworkConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfiguration.swift; sourceTree = "<group>"; };
+		B7D85B7B2AB206E000EEC3DF /* Show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		B7D85B7E2AB2071C00EEC3DF /* FetchDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataView.swift; sourceTree = "<group>"; };
+		B7D85B812AB2075F00EEC3DF /* FetchDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				B7D85B4A2AB05E0D00EEC3DF /* SimpleNetworkingApp_SwiftUIApp.swift */,
-				B7D85B4C2AB05E0D00EEC3DF /* ContentView.swift */,
+				B7D85B792AB206CA00EEC3DF /* Models */,
+				B7D85B782AB206A700EEC3DF /* Services */,
+				B7D85B7D2AB2070200EEC3DF /* UI */,
 				B7D85B4E2AB05E0E00EEC3DF /* Assets.xcassets */,
 				B7D85B502AB05E0E00EEC3DF /* Preview Content */,
 			);
@@ -125,6 +137,41 @@
 				B7D85B672AB05E0F00EEC3DF /* SimpleNetworkingApp_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = SimpleNetworkingApp_SwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		B7D85B782AB206A700EEC3DF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B7D85B762AB1988E00EEC3DF /* NetworkConfiguration.swift */,
+				B7D85B742AB1981800EEC3DF /* NetworkingService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B7D85B792AB206CA00EEC3DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B7D85B7B2AB206E000EEC3DF /* Show.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B7D85B7D2AB2070200EEC3DF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B7D85B4C2AB05E0D00EEC3DF /* ContentView.swift */,
+				B7D85B802AB2074800EEC3DF /* FetchDataView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B7D85B802AB2074800EEC3DF /* FetchDataView */ = {
+			isa = PBXGroup;
+			children = (
+				B7D85B7E2AB2071C00EEC3DF /* FetchDataView.swift */,
+				B7D85B812AB2075F00EEC3DF /* FetchDataViewModel.swift */,
+			);
+			path = FetchDataView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +304,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D85B752AB1981800EEC3DF /* NetworkingService.swift in Sources */,
+				B7D85B822AB2075F00EEC3DF /* FetchDataViewModel.swift in Sources */,
 				B7D85B4D2AB05E0D00EEC3DF /* ContentView.swift in Sources */,
 				B7D85B4B2AB05E0D00EEC3DF /* SimpleNetworkingApp_SwiftUIApp.swift in Sources */,
+				B7D85B7F2AB2071C00EEC3DF /* FetchDataView.swift in Sources */,
+				B7D85B7C2AB206E000EEC3DF /* Show.swift in Sources */,
+				B7D85B772AB1988E00EEC3DF /* NetworkConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
