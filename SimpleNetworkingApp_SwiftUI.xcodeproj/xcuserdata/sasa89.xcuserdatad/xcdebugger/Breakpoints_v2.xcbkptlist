@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2EFB06DC-93CB-41BE-8A8F-D4CC4C13F7E1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8607C244-5848-4CFF-975A-9298FF62C13B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleNetworkingApp_SwiftUI/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "fetchDataSimple()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8607C244-5848-4CFF-975A-9298FF62C13B - af2823b80648d66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SimpleNetworkingApp_SwiftUI.ContentView.fetchDataSimple() -&gt; ()"
+                  moduleName = "SimpleNetworkingApp_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sasa89/Desktop/SimpleNetworkingApp_SwiftUI/SimpleNetworkingApp_SwiftUI/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "660">
+               </Location>
+               <Location
+                  uuid = "8607C244-5848-4CFF-975A-9298FF62C13B - 7599daa5f2a4ca32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleNetworkingApp_SwiftUI.ContentView.fetchDataSimple() -&gt; ()"
+                  moduleName = "SimpleNetworkingApp_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sasa89/Desktop/SimpleNetworkingApp_SwiftUI/SimpleNetworkingApp_SwiftUI/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "740">
+               </Location>
+               <Location
+                  uuid = "8607C244-5848-4CFF-975A-9298FF62C13B - af2823b80648d47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SimpleNetworkingApp_SwiftUI.ContentView.fetchDataSimple() -&gt; ()"
+                  moduleName = "SimpleNetworkingApp_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sasa89/Desktop/SimpleNetworkingApp_SwiftUI/SimpleNetworkingApp_SwiftUI/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "672">
+               </Location>
+               <Location
+                  uuid = "8607C244-5848-4CFF-975A-9298FF62C13B - 7599daa5f2a4ca13"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleNetworkingApp_SwiftUI.ContentView.fetchDataSimple() -&gt; ()"
+                  moduleName = "SimpleNetworkingApp_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sasa89/Desktop/SimpleNetworkingApp_SwiftUI/SimpleNetworkingApp_SwiftUI/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "824">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6531AF2D-984A-4625-80A8-92A9822A9E0D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleNetworkingApp_SwiftUI/NetworkingService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "fetch(with:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6531AF2D-984A-4625-80A8-92A9822A9E0D - bf5fd11c05f00899"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleNetworkingApp_SwiftUI.NetworkingService.fetch(with: SimpleNetworkingApp_SwiftUI.Request, completion: (Swift.Result&lt;SimpleNetworkingApp_SwiftUI.Show, SimpleNetworkingApp_SwiftUI.ErrorHandler&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SimpleNetworkingApp_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sasa89/Desktop/SimpleNetworkingApp_SwiftUI/SimpleNetworkingApp_SwiftUI/NetworkingService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1980">
+               </Location>
+               <Location
+                  uuid = "6531AF2D-984A-4625-80A8-92A9822A9E0D - bf5fd11c05f00899"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleNetworkingApp_SwiftUI.NetworkingService.fetch(with: SimpleNetworkingApp_SwiftUI.Request, completion: (Swift.Result&lt;SimpleNetworkingApp_SwiftUI.Show, SimpleNetworkingApp_SwiftUI.ErrorHandler&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SimpleNetworkingApp_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sasa89/Desktop/SimpleNetworkingApp_SwiftUI/SimpleNetworkingApp_SwiftUI/NetworkingService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1940">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B69BC94B-77C1-4084-8C1F-D74E4F0202CE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleNetworkingApp_SwiftUI/NetworkingService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "fetch(with:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B69BC94B-77C1-4084-8C1F-D74E4F0202CE - bf5fd11c05f009be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleNetworkingApp_SwiftUI.NetworkingService.fetch(with: SimpleNetworkingApp_SwiftUI.Request, completion: (Swift.Result&lt;SimpleNetworkingApp_SwiftUI.Show, SimpleNetworkingApp_SwiftUI.ErrorHandler&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SimpleNetworkingApp_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sasa89/Desktop/SimpleNetworkingApp_SwiftUI/SimpleNetworkingApp_SwiftUI/NetworkingService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1460">
+               </Location>
+               <Location
+                  uuid = "B69BC94B-77C1-4084-8C1F-D74E4F0202CE - bf5fd11c05f009be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleNetworkingApp_SwiftUI.NetworkingService.fetch(with: SimpleNetworkingApp_SwiftUI.Request, completion: (Swift.Result&lt;SimpleNetworkingApp_SwiftUI.Show, SimpleNetworkingApp_SwiftUI.ErrorHandler&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SimpleNetworkingApp_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sasa89/Desktop/SimpleNetworkingApp_SwiftUI/SimpleNetworkingApp_SwiftUI/NetworkingService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1D6378E-F700-45A9-8FF1-D5E82DFDAB93"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleNetworkingApp_SwiftUI/NetworkingService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "configureRequest(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C1D6378E-F700-45A9-8FF1-D5E82DFDAB93 - ebbeff370cbd78c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SimpleNetworkingApp_SwiftUI.NetworkingService.configureRequest(SimpleNetworkingApp_SwiftUI.Request) -&gt; Swift.Optional&lt;Foundation.URLRequest&gt;"
+                  moduleName = "SimpleNetworkingApp_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sasa89/Desktop/SimpleNetworkingApp_SwiftUI/SimpleNetworkingApp_SwiftUI/NetworkingService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "744">
+               </Location>
+               <Location
+                  uuid = "C1D6378E-F700-45A9-8FF1-D5E82DFDAB93 - ebbeff370cbd78c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SimpleNetworkingApp_SwiftUI.NetworkingService.configureRequest(SimpleNetworkingApp_SwiftUI.Request) -&gt; Swift.Optional&lt;Foundation.URLRequest&gt;"
+                  moduleName = "SimpleNetworkingApp_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sasa89/Desktop/SimpleNetworkingApp_SwiftUI/SimpleNetworkingApp_SwiftUI/NetworkingService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "808">
+               </Location>
+               <Location
+                  uuid = "C1D6378E-F700-45A9-8FF1-D5E82DFDAB93 - ebbeff370cbd78c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SimpleNetworkingApp_SwiftUI.NetworkingService.configureRequest(SimpleNetworkingApp_SwiftUI.Request) -&gt; Swift.Optional&lt;Foundation.URLRequest&gt;"
+                  moduleName = "SimpleNetworkingApp_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sasa89/Desktop/SimpleNetworkingApp_SwiftUI/SimpleNetworkingApp_SwiftUI/NetworkingService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "2604">
+               </Location>
+               <Location
+                  uuid = "C1D6378E-F700-45A9-8FF1-D5E82DFDAB93 - ebbeff370cbd78c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SimpleNetworkingApp_SwiftUI.NetworkingService.configureRequest(SimpleNetworkingApp_SwiftUI.Request) -&gt; Swift.Optional&lt;Foundation.URLRequest&gt;"
+                  moduleName = "SimpleNetworkingApp_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sasa89/Desktop/SimpleNetworkingApp_SwiftUI/SimpleNetworkingApp_SwiftUI/NetworkingService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "2500">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
